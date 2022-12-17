@@ -1,1 +1,1 @@
-class Person
+class Person(name: String, age: Int)
