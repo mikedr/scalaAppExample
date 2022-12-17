@@ -1,1 +1,1 @@
-class Person(name: String, age: Int)
+class Person(val name: String, val age: Int)
