@@ -6,7 +6,8 @@ object Application extends App {
   println("Tiempo de autor: "+aNovel.authorAge()+" años")
 
   def otherWriter = new Writer("Jorge","Borges", 1899)
-  println(aNovel.name+" está escrita por: "+otherWriter.fullName()+"?: "+aNovel.isWrittenBy(otherWriter))
+  println(aNovel.name+" está escrita por: "+otherWriter.fullName()+"?")
+  println(aNovel isWrittenBy otherWriter) //infix notation - operator notation - syntactic sugar
 
   def unaCopia = aNovel.copy(aNovel,1980)
   println("La copia se publicó en: "+unaCopia.yearRelease)
